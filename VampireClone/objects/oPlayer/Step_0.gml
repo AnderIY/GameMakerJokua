@@ -12,8 +12,8 @@ if ( hor_move !=0 or ver_move != 0){
 	}
 	var _dir = point_direction(0,0,hor_move,ver_move);
 
-	mov_x = lengthdir_x(2,_dir);
-	mov_y = lengthdir_y(2,_dir);
+	mov_x = lengthdir_x(spd,_dir);
+	mov_y = lengthdir_y(spd,_dir);
 	
 	x+=mov_x;
 	y+=mov_y;

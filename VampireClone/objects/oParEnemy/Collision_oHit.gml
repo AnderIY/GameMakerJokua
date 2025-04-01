@@ -12,3 +12,6 @@ var _mov_y = lengthdir_y(other.push, _dir);
 x+=_mov_x;
 y+=_mov_y;
  
+ var temp = instance_create_layer(x,y-10,"Instances",oEnemyDmg);
+ temp.depth = depth-1;
+ temp.txtDmg = other.dmg;

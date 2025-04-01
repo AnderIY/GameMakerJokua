@@ -1,6 +1,12 @@
 hor_move = keyboard_check(vk_right)- keyboard_check(vk_left);
 ver_move = keyboard_check(vk_down)- keyboard_check(vk_up);
 
+if (isDmg){
+	image_blend = c_red;
+	}else{
+	image_blend= c_white;
+}
+
 if ( hor_move !=0 or ver_move != 0){
 	
 	if(sprite_index != sPlayerWalk){

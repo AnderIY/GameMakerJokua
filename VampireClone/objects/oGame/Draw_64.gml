@@ -11,3 +11,6 @@ draw_text_transformed(room_width/2,16,_timer,1,1,0);
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
+
+draw_sprite(sProgressBar,0,0,0);
+draw_sprite_ext(sProgress,0,2,2,xp/xp_max,1,0,c_white,1);

@@ -38,6 +38,7 @@
     {"id":{"name":"oBat","path":"objects/oBat/oBat.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oEnemyDmg","path":"objects/oEnemyDmg/oEnemyDmg.yy",},},
+    {"id":{"name":"oExp","path":"objects/oExp/oExp.yy",},},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
     {"id":{"name":"oHit","path":"objects/oHit/oHit.yy",},},
     {"id":{"name":"oInventory","path":"objects/oInventory/oInventory.yy",},},

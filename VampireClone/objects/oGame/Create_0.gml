@@ -9,3 +9,11 @@ second = 0;
 alarm[0] = room_speed;
 
 display_set_gui_size(room_width,room_height);
+
+xp = 0;
+
+xp_max = 100;
+
+player_level = 1;
+
+level_up = false;

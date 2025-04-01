@@ -30,4 +30,13 @@ if ( hor_move !=0 or ver_move != 0){
 	}
 }
 
-	
+var _list = ds_list_create();
+
+var _total_xp = collision_circle_list(x,y,radius_xp,oExp,false,true,_list,true);
+
+if(_total_xp>0) {
+	for(var _i = 0; _i <_total_xp; _i++){
+		_list[|_i].follow_player=true;
+	}
+}
+	ds_list_destroy(_list);

@@ -7,3 +7,6 @@ isDmg= false;
 
 inventory = instance_create_layer(x,y,layer,oInventory);
 
+radius_xp = 80;
+
+
